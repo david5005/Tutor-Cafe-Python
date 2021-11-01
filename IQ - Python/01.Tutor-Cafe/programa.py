@@ -1,19 +1,13 @@
-"""
-Expresiones regulares
-Cómo dice la vaca? 
+#expresiones regulares
 
-Ingresar por el teclado un texto 
-"""
 import re
 
-teclado = input("Como dice la vaca?: ")
-#expresion regular . osea cada caracter
-
-globo = re.sub(r".", "-", teclado)
-#globo = re.sub(r"d", "-", teclado)
+teclado = input("Como dice la vaca?: ") #----
+#globo = re.sub  .sub(r".", "-",teclado) #Muuu
+globo = re.sub(r".", "-",teclado)
 globo = "  " + globo
-
 print("\n")
+
 print(globo)
 print("< " + teclado + " >")
 print(globo)
@@ -22,6 +16,16 @@ print("    \\ (oo)\\_______     ")
 print("      (__)\\\\      )\\/\\      ")
 print("           ||----w| ")
 print("           ||    ||")
+print("-----------------------------------------------------")
 
-print("\n")
-print("\n")
+
+
+#Ejemplo del uso de funciones
+n = "INVestiGacion"
+print(n.lower())
+
+
+"""
+print('inv' in n) #true
+print(n.lower())
+"""
